@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "autumn-comic",
+  "version": "0.1.0",
+  "description": "将用户上传的图片重新绘制为温暖治愈的秋日二维漫画插画，尽量保留原图人物与构图。",
+  "author": {"name": "Plugin owner"},
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Autumn Comic（秋日漫画）",
+        "shortDescription": "将上传的图片绘成温暖秋日漫画",
+        "longDescription": "以用户上传的照片或图片为主要参考，保留主体身份、姿势和构图，重新绘制为温暖的秋日二维漫画插画。",
+        "developerName": "Plugin owner",
+        "category": "Creativity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "请将我上传的图片转换为秋日漫画风，保留人物和原有构图。"
+      }
+    }
+  }
+}
