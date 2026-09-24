@@ -37,5 +37,26 @@ autumn-comic/
 ├── skills/
 │   └── autumn-comic/
 │       └── SKILL.md
+├── examples/
+│   ├── original.jpg
+│   └── autumn-comic.png
 ├── README.md
 └── LICENSE
+```
+
+## 🖼️ Example
+
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Autumn Comic</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="examples/original.jpg" width="100%">
+    </td>
+    <td width="50%">
+      <img src="examples/autumn-comic.png" width="100%">
+    </td>
+  </tr>
+</table>
